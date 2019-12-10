@@ -1,0 +1,51 @@
+[
+    {
+      "ParameterKey": "ClusterName",
+      "ParameterValue": "skydev"
+    }, 
+    {
+      "ParameterKey": "ClusterControlPlaneSecurityGroup",
+      "ParameterValue": "sg-05b0162fa37c991bb"
+    }, 
+    {
+      "ParameterKey": "NodeGroupName",
+      "ParameterValue": "standard-fixed"
+    }, 
+    {
+      "ParameterKey": "NodeAutoScalingGroupMinSize",
+      "ParameterValue": "1"
+    }, 
+    {
+      "ParameterKey": "NodeAutoScalingGroupDesiredCapacity",
+      "ParameterValue": "3"
+    }, 
+    {
+      "ParameterKey": "NodeAutoScalingGroupMaxSize",
+      "ParameterValue": "3"
+    }, 
+    {
+      "ParameterKey": "NodeInstanceType",
+      "ParameterValue": "t3.medium"
+    }, 
+    {
+      "ParameterKey": "NodeImageId",
+      "ParameterValue": "ami-08fb441b40d9d0045"
+    }, 
+    {
+      "ParameterKey": "NodeVolumeSize",
+      "ParameterValue": "30"
+    }, 
+    {
+      "ParameterKey": "KeyName",
+      "ParameterValue": "skydev-worker-nodes"
+    }, 
+    {
+      "ParameterKey": "VpcId",
+      "ParameterValue": "vpc-07455e64db0c1e56e"
+    }, 
+    {
+      "ParameterKey": "Subnets",
+      "ParameterValue": "subnet-0df602002fbf5fcda,subnet-0db721592d5ad1f03,subnet-0a6ca1a2c7c1e099b,subnet-0667dd6c5520df4f1,subnet-0ec15766674fe45d7,subnet-0a28e6d5f3c797206"
+    }
+]
+  
